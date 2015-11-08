@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  VoltMobiProject
+
+  Created by Георгий Малюков on 08.11.15.
+  Copyright © 2015 Георгий Малюков. All rights reserved.
+*/
+
+"main.plResult" = "Со вчерашнего дня %@\n%@ на %ld %@";
+"main.plResult.up" = "вырос";
+"main.plResult.down" = "упал";
+"main.updateTime" = "Обновлено в %@";
+"main.updating" = "Загрузка данных";
+// utils
+"utils.percent" = "процент";
+"utils.percent.ending.several" = "а";
+"utils.percent.ending.multiple" = "ов";
+// currency
+"USD" = "доллар";
+"RUB" = "рубль";
+"EUR" = "евро";

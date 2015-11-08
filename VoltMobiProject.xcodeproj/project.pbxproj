@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58BF43285B564108D66FE231 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF624A413820B29FEC6B9D6 /* libPods.a */; };
+		CF40EF8F1BEED0DE00A1388B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF40EF8E1BEED0DE00A1388B /* main.m */; };
+		CF40EF921BEED0DE00A1388B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF40EF911BEED0DE00A1388B /* AppDelegate.m */; };
+		CF40EF981BEED0DE00A1388B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF40EF961BEED0DE00A1388B /* Main.storyboard */; };
+		CF40EF9D1BEED0DE00A1388B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF40EF9B1BEED0DE00A1388B /* LaunchScreen.storyboard */; };
+		CF40EFAB1BEED16700A1388B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF40EFA91BEED16700A1388B /* Assets.xcassets */; };
+		CF40EFB01BEED1BE00A1388B /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF40EFAC1BEED1BE00A1388B /* Lato-Black.ttf */; };
+		CF40EFB11BEED1BE00A1388B /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF40EFAD1BEED1BE00A1388B /* Lato-Bold.ttf */; };
+		CF40EFB21BEED1BE00A1388B /* Lato-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF40EFAE1BEED1BE00A1388B /* Lato-MediumItalic.ttf */; };
+		CF40EFB31BEED1BE00A1388B /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF40EFAF1BEED1BE00A1388B /* Lato-Regular.ttf */; };
+		CF40EFBF1BEED84700A1388B /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = CF40EFBE1BEED84700A1388B /* UIColor+Hex.m */; };
+		CF40EFC21BEED8C700A1388B /* VMPPainter.m in Sources */ = {isa = PBXBuildFile; fileRef = CF40EFC11BEED8C700A1388B /* VMPPainter.m */; };
+		CF40EFC51BEEDDE800A1388B /* VMPFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CF40EFC41BEEDDE800A1388B /* VMPFormatter.m */; };
+		CF40EFCE1BEEE01E00A1388B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF40EFD01BEEE01E00A1388B /* Localizable.strings */; };
+		CF40EFD71BEF9E1D00A1388B /* VMPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF40EFD61BEF9E1D00A1388B /* VMPMainViewController.m */; };
+		CF40EFE01BEF9F3600A1388B /* VMPPairDashboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF40EFDF1BEF9F3600A1388B /* VMPPairDashboardView.m */; };
+		CF40EFE21BEF9F3F00A1388B /* VMPPairDashboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF40EFE11BEF9F3F00A1388B /* VMPPairDashboardView.xib */; };
+		CF40EFE51BEFA14F00A1388B /* VMPCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = CF40EFE41BEFA14F00A1388B /* VMPCalculator.m */; };
+		CF40EFE81BEFA52A00A1388B /* VMPUpdateTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF40EFE71BEFA52A00A1388B /* VMPUpdateTimeView.m */; };
+		CF40EFEA1BEFA53300A1388B /* VMPUpdateTimeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF40EFE91BEFA53300A1388B /* VMPUpdateTimeView.xib */; };
+		CF9CE67E1BEFE0DC00F1AC65 /* VMPNet.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9CE67D1BEFE0DC00F1AC65 /* VMPNet.m */; };
+		CF9CE6821BEFE2A000F1AC65 /* VMPCurrencyPair.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9CE6811BEFE2A000F1AC65 /* VMPCurrencyPair.m */; };
+		CF9CE68C1BEFF1B700F1AC65 /* VMPSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9CE68A1BEFF1B700F1AC65 /* VMPSelectorView.m */; };
+		CF9CE68D1BEFF1B700F1AC65 /* VMPSelectorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF9CE68B1BEFF1B700F1AC65 /* VMPSelectorView.xib */; };
+		CF9CE6911BEFF1C800F1AC65 /* VMPSelectorViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9CE68F1BEFF1C800F1AC65 /* VMPSelectorViewCell.m */; };
+		CF9CE6921BEFF1C800F1AC65 /* VMPSelectorViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF9CE6901BEFF1C800F1AC65 /* VMPSelectorViewCell.xib */; };
+		CF9CE6951BEFF6B100F1AC65 /* VMPStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9CE6941BEFF6B100F1AC65 /* VMPStorage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC48090F112AFB3E710DF551 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CAF624A413820B29FEC6B9D6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF40EF8A1BEED0DE00A1388B /* VoltMobiProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoltMobiProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF40EF8E1BEED0DE00A1388B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF40EF901BEED0DE00A1388B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF40EF911BEED0DE00A1388B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF40EF971BEED0DE00A1388B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF40EF9C1BEED0DE00A1388B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF40EF9E1BEED0DE00A1388B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF40EFA91BEED16700A1388B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF40EFAC1BEED1BE00A1388B /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		CF40EFAD1BEED1BE00A1388B /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		CF40EFAE1BEED1BE00A1388B /* Lato-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CF40EFAF1BEED1BE00A1388B /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		CF40EFBD1BEED84700A1388B /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		CF40EFBE1BEED84700A1388B /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		CF40EFC01BEED8C700A1388B /* VMPPainter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMPPainter.h; sourceTree = "<group>"; };
+		CF40EFC11BEED8C700A1388B /* VMPPainter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMPPainter.m; sourceTree = "<group>"; };
+		CF40EFC31BEEDDE800A1388B /* VMPFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMPFormatter.h; sourceTree = "<group>"; };
+		CF40EFC41BEEDDE800A1388B /* VMPFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMPFormatter.m; sourceTree = "<group>"; };
+		CF40EFCF1BEEE01E00A1388B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CF40EFD11BEEE02A00A1388B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		CF40EFD21BEEE02B00A1388B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		CF40EFD31BEEE02B00A1388B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CF40EFD51BEF9E1D00A1388B /* VMPMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMPMainViewController.h; sourceTree = "<group>"; };
+		CF40EFD61BEF9E1D00A1388B /* VMPMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMPMainViewController.m; sourceTree = "<group>"; };
+		CF40EFDE1BEF9F3600A1388B /* VMPPairDashboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMPPairDashboardView.h; sourceTree = "<group>"; };
+		CF40EFDF1BEF9F3600A1388B /* VMPPairDashboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMPPairDashboardView.m; sourceTree = "<group>"; };
+		CF40EFE11BEF9F3F00A1388B /* VMPPairDashboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VMPPairDashboardView.xib; sourceTree = "<group>"; };
+		CF40EFE31BEFA14F00A1388B /* VMPCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMPCalculator.h; sourceTree = "<group>"; };
+		CF40EFE41BEFA14F00A1388B /* VMPCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMPCalculator.m; sourceTree = "<group>"; };
+		CF40EFE61BEFA52A00A1388B /* VMPUpdateTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMPUpdateTimeView.h; sourceTree = "<group>"; };
+		CF40EFE71BEFA52A00A1388B /* VMPUpdateTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMPUpdateTimeView.m; sourceTree = "<group>"; };
+		CF40EFE91BEFA53300A1388B /* VMPUpdateTimeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VMPUpdateTimeView.xib; sourceTree = "<group>"; };
+		CF9CE67C1BEFE0DC00F1AC65 /* VMPNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMPNet.h; sourceTree = "<group>"; };
+		CF9CE67D1BEFE0DC00F1AC65 /* VMPNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMPNet.m; sourceTree = "<group>"; };
+		CF9CE6801BEFE2A000F1AC65 /* VMPCurrencyPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMPCurrencyPair.h; sourceTree = "<group>"; };
+		CF9CE6811BEFE2A000F1AC65 /* VMPCurrencyPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMPCurrencyPair.m; sourceTree = "<group>"; };
+		CF9CE6891BEFF1B700F1AC65 /* VMPSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMPSelectorView.h; sourceTree = "<group>"; };
+		CF9CE68A1BEFF1B700F1AC65 /* VMPSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMPSelectorView.m; sourceTree = "<group>"; };
+		CF9CE68B1BEFF1B700F1AC65 /* VMPSelectorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VMPSelectorView.xib; sourceTree = "<group>"; };
+		CF9CE68E1BEFF1C800F1AC65 /* VMPSelectorViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMPSelectorViewCell.h; sourceTree = "<group>"; };
+		CF9CE68F1BEFF1C800F1AC65 /* VMPSelectorViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMPSelectorViewCell.m; sourceTree = "<group>"; };
+		CF9CE6901BEFF1C800F1AC65 /* VMPSelectorViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VMPSelectorViewCell.xib; sourceTree = "<group>"; };
+		CF9CE6931BEFF6B100F1AC65 /* VMPStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMPStorage.h; sourceTree = "<group>"; };
+		CF9CE6941BEFF6B100F1AC65 /* VMPStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMPStorage.m; sourceTree = "<group>"; };
+		EAE5A8BAB74B12C847A0603C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF40EF871BEED0DE00A1388B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58BF43285B564108D66FE231 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31BEDE525D1B7355E761454F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAE5A8BAB74B12C847A0603C /* Pods.debug.xcconfig */,
+				AC48090F112AFB3E710DF551 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF40EF811BEED0DD00A1388B = {
+			isa = PBXGroup;
+			children = (
+				CF40EF8C1BEED0DE00A1388B /* VoltMobiProject */,
+				CF40EF8B1BEED0DE00A1388B /* Products */,
+				31BEDE525D1B7355E761454F /* Pods */,
+				EB99CF3639979625E9302424 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF40EF8B1BEED0DE00A1388B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF40EF8A1BEED0DE00A1388B /* VoltMobiProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF40EF8C1BEED0DE00A1388B /* VoltMobiProject */ = {
+			isa = PBXGroup;
+			children = (
+				CF40EFA41BEED16700A1388B /* Classes */,
+				CF40EFA81BEED16700A1388B /* Resources */,
+				CF40EF901BEED0DE00A1388B /* AppDelegate.h */,
+				CF40EF911BEED0DE00A1388B /* AppDelegate.m */,
+				CF40EF961BEED0DE00A1388B /* Main.storyboard */,
+				CF40EF9B1BEED0DE00A1388B /* LaunchScreen.storyboard */,
+				CF40EF9E1BEED0DE00A1388B /* Info.plist */,
+				CF40EF8E1BEED0DE00A1388B /* main.m */,
+			);
+			path = VoltMobiProject;
+			sourceTree = "<group>";
+		};
+		CF40EFA41BEED16700A1388B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CF40EFA51BEED16700A1388B /* Model */,
+				CF40EFD41BEF9E1D00A1388B /* Presenter */,
+				CF40EFA71BEED16700A1388B /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CF40EFA51BEED16700A1388B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF9CE67F1BEFE29800F1AC65 /* Entity */,
+				CF40EFBB1BEED7C000A1388B /* Utils */,
+				CF9CE67C1BEFE0DC00F1AC65 /* VMPNet.h */,
+				CF9CE67D1BEFE0DC00F1AC65 /* VMPNet.m */,
+				CF9CE6931BEFF6B100F1AC65 /* VMPStorage.h */,
+				CF9CE6941BEFF6B100F1AC65 /* VMPStorage.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF40EFA71BEED16700A1388B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF9CE6881BEFF1A700F1AC65 /* SelectorView */,
+				CF40EFDE1BEF9F3600A1388B /* VMPPairDashboardView.h */,
+				CF40EFDF1BEF9F3600A1388B /* VMPPairDashboardView.m */,
+				CF40EFE11BEF9F3F00A1388B /* VMPPairDashboardView.xib */,
+				CF40EFE61BEFA52A00A1388B /* VMPUpdateTimeView.h */,
+				CF40EFE71BEFA52A00A1388B /* VMPUpdateTimeView.m */,
+				CF40EFE91BEFA53300A1388B /* VMPUpdateTimeView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF40EFA81BEED16700A1388B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF40EFA91BEED16700A1388B /* Assets.xcassets */,
+				CF40EFAA1BEED16700A1388B /* Fonts */,
+				CF40EFD01BEEE01E00A1388B /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CF40EFAA1BEED16700A1388B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CF40EFAC1BEED1BE00A1388B /* Lato-Black.ttf */,
+				CF40EFAD1BEED1BE00A1388B /* Lato-Bold.ttf */,
+				CF40EFAE1BEED1BE00A1388B /* Lato-MediumItalic.ttf */,
+				CF40EFAF1BEED1BE00A1388B /* Lato-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CF40EFBB1BEED7C000A1388B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CF40EFBC1BEED7C000A1388B /* Categories */,
+				CF40EFE31BEFA14F00A1388B /* VMPCalculator.h */,
+				CF40EFE41BEFA14F00A1388B /* VMPCalculator.m */,
+				CF40EFC01BEED8C700A1388B /* VMPPainter.h */,
+				CF40EFC11BEED8C700A1388B /* VMPPainter.m */,
+				CF40EFC31BEEDDE800A1388B /* VMPFormatter.h */,
+				CF40EFC41BEEDDE800A1388B /* VMPFormatter.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CF40EFBC1BEED7C000A1388B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CF40EFBD1BEED84700A1388B /* UIColor+Hex.h */,
+				CF40EFBE1BEED84700A1388B /* UIColor+Hex.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		CF40EFD41BEF9E1D00A1388B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CF40EFD51BEF9E1D00A1388B /* VMPMainViewController.h */,
+				CF40EFD61BEF9E1D00A1388B /* VMPMainViewController.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CF9CE67F1BEFE29800F1AC65 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CF9CE6801BEFE2A000F1AC65 /* VMPCurrencyPair.h */,
+				CF9CE6811BEFE2A000F1AC65 /* VMPCurrencyPair.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CF9CE6881BEFF1A700F1AC65 /* SelectorView */ = {
+			isa = PBXGroup;
+			children = (
+				CF9CE6891BEFF1B700F1AC65 /* VMPSelectorView.h */,
+				CF9CE68A1BEFF1B700F1AC65 /* VMPSelectorView.m */,
+				CF9CE68B1BEFF1B700F1AC65 /* VMPSelectorView.xib */,
+				CF9CE68E1BEFF1C800F1AC65 /* VMPSelectorViewCell.h */,
+				CF9CE68F1BEFF1C800F1AC65 /* VMPSelectorViewCell.m */,
+				CF9CE6901BEFF1C800F1AC65 /* VMPSelectorViewCell.xib */,
+			);
+			path = SelectorView;
+			sourceTree = "<group>";
+		};
+		EB99CF3639979625E9302424 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAF624A413820B29FEC6B9D6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF40EF891BEED0DE00A1388B /* VoltMobiProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF40EFA11BEED0DE00A1388B /* Build configuration list for PBXNativeTarget "VoltMobiProject" */;
+			buildPhases = (
+				84F0AD8EB21BF68CD1EA068F /* Check Pods Manifest.lock */,
+				CF40EF861BEED0DE00A1388B /* Sources */,
+				CF40EF871BEED0DE00A1388B /* Frameworks */,
+				CF40EF881BEED0DE00A1388B /* Resources */,
+				7D57EA1DB8F66B64948B2615 /* Embed Pods Frameworks */,
+				ABCF360A6221E2956E585922 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoltMobiProject;
+			productName = VoltMobiProject;
+			productReference = CF40EF8A1BEED0DE00A1388B /* VoltMobiProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF40EF821BEED0DD00A1388B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VMP;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Георгий Малюков";
+				TargetAttributes = {
+					CF40EF891BEED0DE00A1388B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = CF40EF851BEED0DD00A1388B /* Build configuration list for PBXProject "VoltMobiProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = CF40EF811BEED0DD00A1388B;
+			productRefGroup = CF40EF8B1BEED0DE00A1388B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF40EF891BEED0DE00A1388B /* VoltMobiProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF40EF881BEED0DE00A1388B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9CE68D1BEFF1B700F1AC65 /* VMPSelectorView.xib in Resources */,
+				CF40EFB01BEED1BE00A1388B /* Lato-Black.ttf in Resources */,
+				CF40EFE21BEF9F3F00A1388B /* VMPPairDashboardView.xib in Resources */,
+				CF40EFB11BEED1BE00A1388B /* Lato-Bold.ttf in Resources */,
+				CF40EF9D1BEED0DE00A1388B /* LaunchScreen.storyboard in Resources */,
+				CF40EFB21BEED1BE00A1388B /* Lato-MediumItalic.ttf in Resources */,
+				CF40EFB31BEED1BE00A1388B /* Lato-Regular.ttf in Resources */,
+				CF9CE6921BEFF1C800F1AC65 /* VMPSelectorViewCell.xib in Resources */,
+				CF40EFCE1BEEE01E00A1388B /* Localizable.strings in Resources */,
+				CF40EFAB1BEED16700A1388B /* Assets.xcassets in Resources */,
+				CF40EFEA1BEFA53300A1388B /* VMPUpdateTimeView.xib in Resources */,
+				CF40EF981BEED0DE00A1388B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D57EA1DB8F66B64948B2615 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84F0AD8EB21BF68CD1EA068F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABCF360A6221E2956E585922 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF40EF861BEED0DE00A1388B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9CE6911BEFF1C800F1AC65 /* VMPSelectorViewCell.m in Sources */,
+				CF40EFBF1BEED84700A1388B /* UIColor+Hex.m in Sources */,
+				CF40EFC51BEEDDE800A1388B /* VMPFormatter.m in Sources */,
+				CF40EFC21BEED8C700A1388B /* VMPPainter.m in Sources */,
+				CF40EFE81BEFA52A00A1388B /* VMPUpdateTimeView.m in Sources */,
+				CF40EFE01BEF9F3600A1388B /* VMPPairDashboardView.m in Sources */,
+				CF9CE67E1BEFE0DC00F1AC65 /* VMPNet.m in Sources */,
+				CF40EFD71BEF9E1D00A1388B /* VMPMainViewController.m in Sources */,
+				CF9CE68C1BEFF1B700F1AC65 /* VMPSelectorView.m in Sources */,
+				CF9CE6821BEFE2A000F1AC65 /* VMPCurrencyPair.m in Sources */,
+				CF40EF921BEED0DE00A1388B /* AppDelegate.m in Sources */,
+				CF9CE6951BEFF6B100F1AC65 /* VMPStorage.m in Sources */,
+				CF40EF8F1BEED0DE00A1388B /* main.m in Sources */,
+				CF40EFE51BEFA14F00A1388B /* VMPCalculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF40EF961BEED0DE00A1388B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF40EF971BEED0DE00A1388B /* Base */,
+				CF40EFD11BEEE02A00A1388B /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF40EF9B1BEED0DE00A1388B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF40EF9C1BEED0DE00A1388B /* Base */,
+				CF40EFD21BEEE02B00A1388B /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CF40EFD01BEEE01E00A1388B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF40EFCF1BEEE01E00A1388B /* Base */,
+				CF40EFD31BEEE02B00A1388B /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF40EF9F1BEED0DE00A1388B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF40EFA01BEED0DE00A1388B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF40EFA21BEED0DE00A1388B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE5A8BAB74B12C847A0603C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VoltMobiProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdxrepo.VoltMobiProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF40EFA31BEED0DE00A1388B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC48090F112AFB3E710DF551 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VoltMobiProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdxrepo.VoltMobiProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF40EF851BEED0DD00A1388B /* Build configuration list for PBXProject "VoltMobiProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF40EF9F1BEED0DE00A1388B /* Debug */,
+				CF40EFA01BEED0DE00A1388B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF40EFA11BEED0DE00A1388B /* Build configuration list for PBXNativeTarget "VoltMobiProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF40EFA21BEED0DE00A1388B /* Debug */,
+				CF40EFA31BEED0DE00A1388B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF40EF821BEED0DD00A1388B /* Project object */;
+}

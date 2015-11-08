@@ -1,0 +1,13 @@
+PODS:
+  - GDXObserver (1.0.1)
+  - MBProgressHUD (0.9.1)
+
+DEPENDENCIES:
+  - GDXObserver
+  - MBProgressHUD
+
+SPEC CHECKSUMS:
+  GDXObserver: a0d1d614eb40a78f56fa2739ae2bdef529b9642b
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+
+COCOAPODS: 0.39.0
